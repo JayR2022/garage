@@ -15,6 +15,11 @@ public class Garage {
 	public void removeVehicle(int id) {
 		garageList.remove(id);
 	}
-		
+	
+	public void clearGarage() {
+		garageList.clear();
+	}
+	
 }
+
 
